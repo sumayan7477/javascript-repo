@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p id="car"></p>
+    <p id="ownr"></p>
+    <p id="fun"></p>
+    <p id="name"></p>
+
+    <script>
+// array
+        const car=[ "AB" , "BC" ,"CD"];
+        car [0]="abc";
+        car.push("cde")
+        document.getElementById("car").innerHTML=car;
+        
+// objecrt
+        const ownr = {  type :"fiat", model : "500", color : "red"};
+        ownr.color ="blue";
+        //        console.log(ownr);
+        car. owner = " sumaya";
+        // document.getElementById("ownr").innerHTML= ownr.type;
+        document.getElementById("ownr").innerHTML= ownr.model;
+        document.getElementById("ownr").innerHTML= ownr.color;
+        document.getElementById("ownr").innerHTML= ownr.ownr;
+        document.getElementById("ownr").innerHTML= ownr.type;
+
+// ffunction
+        let x = myFunction (4,3);
+        document.getElementById("fun").innerHTML=x;
+
+        function myFunction (a,b) {
+            return a+ b ;
+            return a*b;
+        }
+
+// Object mathode function
+        const person ={
+            firstName : "sumaya",
+            lastName : "islam",
+            id       : 5566,
+            fullName : function () {
+                return this.firstName + ' '+this.lastName;
+            }
+           
+        };
+        document.getElementById("name").innerHTML= person.fullName;
+    </script>
+</body>
+
+
+</html>

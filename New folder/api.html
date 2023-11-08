@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API PROJECT</title>
+</head>
+<body>
+    <H1>api calling in js</H1>
+    <!-- div start -->
+    <div style="border: 2px solid blue;">
+    </div>
+    <hr>
+
+
+    <button onclick="document.getElementById('myImage').src='lighton.jpg'">Turn on the light</button>
+
+    <img id="myImage" src="lightoff.jpg" style="width: 600px;" alt="">
+
+    <button onclick="document.getElementById('myImage').src='lightoff.jpg'">turn off te light</button>
+
+<hr>
+
+<p id="cngfnt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, optio?</p>
+
+
+<button type="button" onclick="document.getElementById('cngfnt').style.fontSize='30px'">clickme</button>
+<button type="button" onclick="document.getElementById('cngfnt').style.fontSize='15px'">clickme</button>
+<button type="button " onclick="document.getElementById('cngfnt').style.display='none'">displaynone</button>
+<button type="button" onclick="document.getElementById('cngfnt').style.display='block'">displayblock</button>
+<button type="button" onclick="myFunction()">parachng</button>
+<button onclick="document.write(5+6)">document 5+6</button>
+<button onclick="window.alert(5+6)">alert 5+6</button>
+<button onclick="window.print(5+6)">print 5+6</button>
+<button type="button" onclick="document.getElementById('cngfnt').innerHTML= 'the value of z is '+ z "> x+y=z</button>
+<hr>
+
+<script>
+    function myFunction() {
+        document.getElementById("cngfnt").innerHTML="paragraph change "
+    }
+// sumaya islam or /* */
+   
+</script>
+
+
+
+
+<script>
+     let x,y,z;
+    x=5;
+    y=x+6;
+    z=x+y*2/3-12;
+    document.getElementById("cngfnt").innerHTML="the value of z is"+z
+
+</script>
+<hr>
+
+
+
+    <script src="api.js" type="module"></script>
+</body>
+</html>
